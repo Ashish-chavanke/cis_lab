@@ -32,3 +32,17 @@ Decrypted: Hello World
 
 Objective: To understand monoalphabetic substitution, key mapping, encryption/decryption, and the security limitations of substitution ciphers against frequency analysis.
 
+LAB 3 - 
+Aim: Write a program to perform encryption and decryption using Hill Cipher.
+Hill Cipher
+A Python implementation of the Hill Cipher for the Cryptography and System Security laboratory. The program uses matrix multiplication and modular arithmetic to encrypt and decrypt text in blocks. It supports a custom 3×3 key matrix and uses the modular inverse of the matrix for decryption.
+
+Features:
+a) Hill Cipher encryption and decryption
+b) Custom 3×3 key matrix
+c) Matrix multiplication modulo 26
+d) Modular matrix inverse for decryption
+e) Automatic X padding for incomplete blocks
+
+Objective: To understand matrix-based cryptography, modular arithmetic, key-matrix inversion, and block-based encryption using the Hill Cipher.
+
